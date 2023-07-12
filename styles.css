@@ -12,23 +12,16 @@
 
 .banner-img{
     width: 635px;
-    /* padding: 0px 0px 0px 0px; */
-    /* height: 800px; */
-    /* flex-shrink: 0; */
+
 }
 
 .banner-container{
 
-    /* width: 1920px; */
-    /* height: 850px; */ 
-    /* flex-shrink: 0; */
 
     padding: 30px 30px 0px 30px; 
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /* height: 100vh; */
-    /* border: 2px solid gray; */
     background-color: #E554731A;
 
 }
@@ -153,13 +146,11 @@
 }
 
 .second-featured-icon{
+    /* margin-top: 2027px; */
     display: flex;
     margin-top: 214px;
-    /* gap: 356px; */
     align-items: center;
     justify-content: space-around;
-    /* width: 88px; */
-    /* height: 88px; */
     flex-shrink: 0;
 }
 
@@ -176,4 +167,73 @@
     /* font-weight: 600; */
     /* line-height: 35px; */
     /* gap: 200px; */
+}
+
+
+/* third-featured */
+
+.third-featured{
+    margin-top: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+
+
+
+.third-title{
+    margin-top: 32px;
+    text-align: center;
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+
+.third-description{
+    margin-top: 32px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.third-btn{
+    margin-top: 32px;
+    margin-left: 208px;
+    text-align: center;
+    padding: 20px 43px;
+    align-items:center;
+    /* gap: 10px; */
+    border-radius: 8px;
+    background: #E55473;
+    border: 0px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.third-featured-image{
+    gap: 1175px 100px 429px 100px;
+    width: 318px;
+    height: 420px;
+    /* flex-shrink: 0; */
+}
+
+
+/* fourth-featured */
+
+.fourth-featured-image{
+    display: flex;
+    padding: 48px 240px;
+    justify-content: space-around;
+    margin-top: 48px;
+    /* gap: 240px 24px 24px 24px 240px; */
 }

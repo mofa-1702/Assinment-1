@@ -139,3 +139,41 @@
     justify-content: center;
 
 }
+
+
+.second-featured{
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 1440px;
+    height: 320px;
+    /* flex-shrink: 0; */
+}
+
+.second-featured-icon{
+    display: flex;
+    margin-top: 214px;
+    /* gap: 356px; */
+    align-items: center;
+    justify-content: space-around;
+    /* width: 88px; */
+    /* height: 88px; */
+    flex-shrink: 0;
+}
+
+.second-featured-text{
+    display: flex;
+    margin-top: 24px;
+    /* padding: 30px; */
+    color: rgba(39, 39, 39, 0.80);
+    /* text-align: center; */
+    justify-content: space-around;
+    /* align-items: center; */
+    font-family: Lato;
+    font-size: 24px;
+    /* font-weight: 600; */
+    /* line-height: 35px; */
+    /* gap: 200px; */
+}
